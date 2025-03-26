@@ -7,7 +7,7 @@ import { render } from "react-dom";
 // import { LDProvider } from "launchdarkly-react-client-sdk";
 
 const LDProvider = withLDProvider({
-  clientSideID: "67e360b82219ab0989a1367a",
+  clientSideID: "",
   context: {
     kind: "user",
     key: "context-key-changing",
